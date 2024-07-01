@@ -14,8 +14,8 @@ console.log(user1.get('id'));
 
 // son iteration 
 let iterator = user1.entries();
-console.log(iterator.next().value);
-console.log(iterator.next().value);
+console.log(iterator.next().value); // premier valeur
+console.log(iterator.next().value); // deuxième valeur 
 
 
 // map vs object
